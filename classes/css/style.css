@@ -1,0 +1,18 @@
+#bd{
+    background-color:blue;
+    color:aliceblue ;
+    /*zbackground-image: url('https://imgs.search.brave.com/tF4InhSNL-ZYTST99_P2Gq4utIIu9p8s74wx6qIZXow/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93LmZv/cmZ1bi5jb20vZmV0/Y2gvOWYvOWY3ZWM5/MjcxNzc3MWI3Nzhm/NjY5NjFmNThjZjFl/NmUuanBlZw');
+   /* background-repeat: no-repeat; 
+  /*  background: linear-gradient(to right,red,blue,green,red,blue,green); */
+  /*background: radial-gradient(red,blue,red,blue); */
+}
+p
+{
+    text-align: center;
+}
+#p1,#p2{
+    background-color: red;
+    padding-bottom:30px;
+    margin-top: 30px;
+    border: 5px solid yellow;
+}
