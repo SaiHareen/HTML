@@ -1,0 +1,86 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registra</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="https://img.freepik.com/free-vector/colorful-letter-s-with-black-background_483537-4543.jpg?t=st=1711952739~exp=1711956339~hmac=168e434ea876051a72c91b02039c882d4a555d95253ecb02681d1a0b537832de&w=740" type="image/x-icon">
+    </head>
+    <body>
+        <form action="main.py"></form>
+        <h1 class="title">Student Registration Form</h1>
+        <form action="main.py">
+            <div>
+                <label for="fn">First Name: <span class="re">*</span></label>
+            <input type="text" id="fn" name="fname" placeholder="Enter First name" required>
+            <label for="la">Last Name:</label>
+            <input type="text" id="la" name="lname" placeholder="Enter Last name" required>
+            </div><br>
+            <div>
+                <label for="fn">Email:</label>
+                <input type="text" id="fn" name="email" placeholder="Enter Email">
+            </div><br>
+            <div>
+                <label for="an">Password</label>
+                <input type="text" id="an" name="password" placeholder="Enter the Password" minlength="10" maxlength="11">
+            </div><br>
+            <div>
+                <label for="dd">Date-of-Birth</label>
+                <input type="date" id="dd" name="date-of-birth">
+            </div><br>
+            <div><label>Choose the Gender</label>
+            <input type="radio" name="gender" id="m" value="male"> <label for="m">Male</label>
+             <input type="radio" name="gemder" id="f" value:female > <label for="f">Female</label></div><br>
+             <div>
+                <label for="mob">Enter Mobile No:</label>
+                <input type="number" id="mob" name="number" placeholder="Enter Mob no" minlength="10" maxlength="22">
+             </div><br>
+             <div>
+                <label>Languages Known:</label>
+                <input type="checkbox" name="Languages" id="en" value="english">
+                <label for="en">English</label>
+                <input type="checkbox" name="Languages" id="tel" value="telugu">
+                <label for="tel">Telugu</label>
+                <input type="checkbox" name="Languages" id="hin" value="hindi">
+                <label for="hin">Hindi</label>
+             </div><br>
+             <div>
+                <label>Choose the Course:</label>
+                <select name="" id="">
+                    <option value="">Please Choose </option>
+                    <option value="B.tech">B.tech</option>
+                    <option value="Degree">Degree</option>
+                    <option value="M.tech">Mtech</option>
+                    <option value="B.ed">B.ed</option>
+                    <option value="MBA">MBA</option>
+                </select><br>
+                <label>Choose the Subjects:</label>
+                <select name="" id="" >
+                    <option value="">Please Choose </option>
+                    <optgroup label="similar"><option value="Java">Java</option>
+                        <option value="English">English</option>
+                        <option value="os">os</option>
+                        <option value="Computer Networks">Computer Networks</option>
+                        <option value="C-Language">C-Language</option></optgroup>
+                    <option value="Maths">Maths</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Cyber Security">Cyber Security</option>
+                </select>
+             </div><br>
+             <div>
+                <label for=""> Enter Feedback:</label>
+                <textarea name="" id="" cols="30" rows="2"></textarea>
+             </div><br>
+             <p>All * required</p>
+             <div>
+                <button type="submit">Submit
+
+                </button><button type="Reset">Reset</button>
+             </div>
+
+        </form>
+
+    </body>
+    </html>
