@@ -15,6 +15,7 @@
             <div id="class">
             <label for="fn">First Name: <span class="re">*</span></label>
             <input type="text" id="fn" name="fname" placeholder="Enter First name" required>
+            <br>
             <label for="la">Last Name:  <span class="re">*</span></label>
             <input type="text" id="la" name="lname" placeholder="Enter Last name" required>
             </div><br>
@@ -22,29 +23,29 @@
                 <legend>Something is there...</legend>
             <div>
                 <label for="fn">Email:</label>
-                <input type="text" id="fn" name="email" placeholder="Enter Email" pattern="[A-Za-zo-9]+@[A-Za-z]+.[A-Za-z]{3}" title="error" required>
+                <input class="fn"  type="text" id="fn" name="email" placeholder="Enter Email" pattern="[A-Za-zo-9]+@[A-Za-z]+.[A-Za-z]{3}" title="error" required>
             </div><br>
             <div>
-                <label for="an">Password</label>
+                <label for="an">Password:<span class="fee">*</span></label>
                 <input type="text" id="an" name="password" placeholder="Enter the Password" minlength="10" maxlength="11">
             </div><br>
         <div>
-            <label for="">Re-Enter Password</label>
+            <label for="">Re-Enter Password: <span class="fee">*</span></label>
             <input type="text" id="an" name="password" placeholder="Re-Enter the password" minlength="20" maxlength="20">
         </div></fieldset>
             <div><br>
                 <label for="dd">Date-of-Birth</label>
                 <input type="date" id="dd" name="date-of-birth">
             </div><br>
-            <div><label>Choose the Gender</label>
+            <div><label>Choose the Gender:<span class="fee">*</span></label>
             <input type="radio" name="gender" id="m" value="male"> <label for="m">Male</label>
              <input type="radio" name="gemder" id="f" value:female > <label for="f">Female</label></div><br>
              <div>
-                <label for="mob">Enter Mobile No:</label>
+                <label for="mob">Enter Mobile No:<span class="fee">*</span></label>
                 <input type="number" id="mob" name="number" placeholder="Enter Mob no" minlength="10" maxlength="22">
              </div><br>
              <div>
-                <label>Languages Known:</label>
+                <label>Languages Known:<span class="fee">*</span></label>
                 <input type="checkbox" name="Languages" id="en" value="english">
                 <label for="en">English</label>
                 <input type="checkbox" name="Languages" id="tel" value="telugu">
@@ -53,7 +54,7 @@
                 <label for="hin">Hindi</label>
              </div><br>
              <div>
-                <label>Choose the Course:</label>
+                <label>Choose the Course:<span class="fee">*</span></label>
                 <select name="" id="">
                     <option value="">Please Choose </option>
                     <option value="B.tech">B.tech</option>
@@ -62,7 +63,7 @@
                     <option value="B.ed">B.ed</option>
                     <option value="MBA">MBA</option>
                 </select><br>
-                <label>Choose the Subjects:</label>
+                <label>Choose the Subjects:<span class="fee">*</span></label>
                 <select name="" id="" >
                     <option value="">Please Choose </option>
                     <optgroup label="similar"><option value="Java">Java</option>
@@ -86,6 +87,7 @@
 
                 </button><button type="Reset">Reset</button>
              </div>
+             <h4>All fields are required to fill.</h4>
         </form>
     </fieldset>
     </body>
