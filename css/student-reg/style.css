@@ -1,9 +1,9 @@
 body{
-    background-color: aquamarine;
+    background-color:aqua;
 }
 .title
 {
-    text-align: center;
+    text-align:center;
 }
 .re
 {
@@ -18,4 +18,7 @@ body{
 }
 .fee{
     color: red;
+}
+.images{
+    text-align: left;
 }
