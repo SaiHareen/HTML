@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -10,22 +10,25 @@
     <body>
         <form action="main.py"></form>
         <h1 class="title">Student Registration Form</h1>
+        <fieldset>
         <form action="main.py">
             <div id="class">
             <label for="fn">First Name: <span class="re">*</span></label>
             <input type="text" id="fn" name="fname" placeholder="Enter First name" required>
-            <label for="la">Last Name:</label>
+            <label for="la">Last Name:  <span class="re">*</span></label>
             <input type="text" id="la" name="lname" placeholder="Enter Last name" required>
             </div><br>
+            <fieldset>
+                <legend>Something is there...</legend>
             <div>
                 <label for="fn">Email:</label>
-                <input type="text" id="fn" name="email" placeholder="Enter Email">
+                <input type="text" id="fn" name="email" placeholder="Enter Email" pattern="[A-Za-zo-9]+@[A-Za-z]+.[A-Za-z]{3}" title="error" required>
             </div><br>
             <div>
                 <label for="an">Password</label>
                 <input type="text" id="an" name="password" placeholder="Enter the Password" minlength="10" maxlength="11">
-            </div><br>
-            <div>
+            </div><br></fieldset>
+            <div><br>
                 <label for="dd">Date-of-Birth</label>
                 <input type="date" id="dd" name="date-of-birth">
             </div><br>
@@ -80,5 +83,6 @@
                 </button><button type="Reset">Reset</button>
              </div>
         </form>
+    </fieldset>
     </body>
     </html>
