@@ -45,21 +45,21 @@
         <caption>Mytable</caption>
         <thead>
             <tr>
-                <td colspan="1">My time table</td>
+                <td>My time table</td>
             </tr>
         </thead> 
         <tbody>
             <tr>
-                <td>x</td>
-                <td>y</td>
+                <td rowspan="1">x</td>
+                <td rowspan="1">y</td>
             </tr>
             <tr>
-                <td>x</td>
-                <td>y</td>
+                <td rowspan="1">x</td>
+                <td rowspan="1">y</td>
             </tr>
           <tr>
-            <td>y</td>
-            <td>x</td>
+            <td colspan="6">y</td>
+            <td colspan="6">x</td>
           </tr>
         </tbody>
             <tfoot>
@@ -73,8 +73,21 @@
 <form action="main.py" method="get">
     <div>
         <label for="x">Enter Email</label>
-        <input type="text" id="x" name="email" autocomplete="email"  autofocus required>
+        <input type="text" id="x" name="email"   autofocus required>
+    </div><br>
+    <div>
+        <label for="y">Enter Password:</label>
+        <input type="pwd" id="y" name="Pwd"  title="password must be 8 chars" required >
+    </div><br>
+    <div>
+        <label for="y">Re-Enter Password:</label>
+        <input type="text" id="y" name="Pwd" autofocus required>
+    </div><br>
+    <div>
+        <label for="fo"><a href=""><fieldset style="width: 100; height: 100;">Forgot Password</fieldset></a></label>
     </div>
+    <button type="submit" id="b">Submit</button>
+    
 </form>
 </body>
 </html>
