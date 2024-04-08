@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+.container{
+    background-color:white;
+    min-height: 100vh;
+    border: 10px solid blueviolet;
+}
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+.image_container {
+    border-radius: 1%;
+    overflow: hidden;
+  }
+.top_section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_section h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(43, 2, 43);
+    text-transform: uppercase;
+}
+.image_container,img{
+    height: 1000%;
+    width:50%;
+    padding-left: 1%;
+    padding-top: 4%;
+}
+.about_section{
+    margin-top: 50px;
+}
+.about_section h2{
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.about_section p{
+    font-size: 20px;
+    color:rgb(1, 37, 1);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bio_graphysection{
+    margin-bottom: 50px;
+}
+.bio_graphysection h3{
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.bio_graphysection{
+    margin-bottom:20px;
+}
+.bio_graphysection ul{
+  margin-left: 40px;
+}
+.bio_graphysection li{
+    margin-bottom: 10px;
+    font-size: larger;
+}
+.bio_graphysection{
+    margin-bottom: 90px;
+}
+footer{
+   margin:70px;
+}
+footer{
+    text-align: end;
+    font-size:medium;
+}
