@@ -74,5 +74,10 @@ footer{
 }
 footer{
     text-align: end;
-    font-size:medium;
+    font-size:larger;
+}
+.preee{
+    color: darkblue;
+    text-align: end;
+    font-size: larger;
 }
