@@ -1,27 +1,18 @@
-body{
-    box-sizing: border-box;
-}
 .main{
-    height: 300px;
-    width: 600px;
-    background-color: bisque;
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    gap: 0px;
-    justify-content: space-around;
-    align-items: center;
-    align-content:center;
-   
+    background-color:bisque;
+    height: 1200px;
+    width: 800px;
 }
-.box
-{
+.box{
     height: 100px;
-    width: 100px;
-    background-color: aqua;
-    border: 3px solid black;
-
+    width: 300px;
+    display: grid;
+    place-items: center;
+    background-color: aquamarine;
+    border: 2px solid black;
 }
-.box11{
-    flex-basis: 1000px;
+.box11 {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 50% 50% 50% 50% 50%;
 }

@@ -1,47 +1,107 @@
-body{
-    height: 100px;
-    width: 100px;
+.image{
+  padding-top: 50px;
+  float:left;
+  height: 300px;
+  width: 500px;
 }
-.positiondemo{
-  height: 1000px;
-  width: 1000px;
+.main
+{
+  float: left;
+}
+.id{
+  float: right;
+  position:sticky;
+  top: 0px;
+}
+li{
+  float: left;
+  margin-left: 20px;
+  list-style-type:none;
   background-color: aqua;
+  box-sizing:content-box;
+  padding: 3px;
+  border-radius: 30px;
 }
-.box-first{
+li:hover{
+  background-color:bisque;
+}
+a{
+  text-decoration:solid ;
+}
+a:hover{
+  color:black;
+}
+h1{
+  text-align:center ;
+}
+p{
+  padding-right: 10px;
+  clear: both ;
+}
+.class{
   height: 100px;
-  width: 200px;
+  width: 300px;
+  background-color:bisque;
+}
+.left,.right{
+  width: 100%;
   background-color: red;
-  margin: 10px;
-  color: white;
-  display: inline-block;
-  position: relative;
-  left: 200px;
-  top: 20px;
-  text-align: center;
+  height: 80px;
+  border: 2px solid black;
 }
-.box-second{
-    height: 100px;
-  width: 200px;
-  background-color:blue;
-  margin: 10px;
-  color: white;
-  display: inline-block;
-  position: relative;
-  left: 200px;
-  top: 20px;
-  text-align: center;
-  visibility: hidden;
+.left{
+  float: left;
 }
-.box-third{
-    height: 100px;
-    width: 200px;
-    background-color:violet;
-    margin: 30px;
-    color: white;
-    display: inline-block;
-    position: sticky;
-    top: 100px;
-    left: 500px;
-    z-index: 20px;
-    text-align: center;
+.right{
+  float: right;
+}
+/*Position defines exactly where an element stays. there are 5 positions like static,absolute,fixed,relative,sticky. The default position is static */
+.positiondemo{
+  height:1000px;
+  width: 1000px;
+  background-color: cornflowerblue;
+  margin:200px;
+  padding-top: 30px;
+}
+.box{
+  height: 100px;
+  width: 300px;
+  background-color: aquamarine;
+  margin-left: 10px;
+  margin: 20px;
+}
+.first{
+  position:relative;
+  top: 10px;
+  left:10px;
+  z-index: 1;
+  text-align: center;
+  margin:  5px;
+}
+.second{
+ 
+  background-color: green;
+  z-index: 100;
+}
+.third
+{
+  background-color: yellowgreen;
+}
+.chat{
+  width: 50px;
+  height: 50px;
+  background-color:black;
+  border-radius: 40px;
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+}
+.hee{
+   width: 200px;
+   background-color: aqua;
+   padding: 20px;
+   border: 2px;
+   margin: 10px;
 }

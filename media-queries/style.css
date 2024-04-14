@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+    box-sizing: border-box;
+}
+.section1{
+    background:linear-gradient(white,blue);
+    display:felx;
+}
+img{
+    height: 200px;
+    width: 300px;
+   mix-blend-mode:hard-light;
+    transition: all 2ms linear;
+}
+img:hover{
+    filter:blur(20px    );
+}
+p{
+    font-size: 18px;
+}
