@@ -4,15 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <style>
+        .transition-box{
+            height: 200px;
+            width:200px;
+            background-color: aqua;
+            transition-property: background-color;
+            transition-duration: 3s;
+            transition-timing-function: ease;
+            text-align: center; 
+            padding-right: 40px;
+        }
+        .transition-box:hover{
+            background-color: red;
+        }
+        p{
+            font-size: larger;
+        }
+    </style>
 </head>
 <body>
-    <div class="main">
-        <div class="box1">Hello</div>
-        <div class="box2">P.Sai Hareen</div>
-        <div class="box3">
-            <img src="https://i.pinimg.com/564x/09/24/a7/0924a7ef295741e916c8f42512bbe5bd.jpg" alt="">
-        </div>
-    </div> 
+    <h1>CSS Transitions</h1>
+    <!-- Trannsition property -->
+    <h2>Transition Properties</h2>
+    <p>---> Hover over the box to see the transition:</p>
+    <div class="transition-box">Hello</div>
+    <h1>Transition Properties</h1>
+    <div class="transition-box" style="transition-duration: 3s; transition-timing-function: ease-in-out;">
+    <p>Customised Transition</p>
+    </div>
 </body>
 </html>
