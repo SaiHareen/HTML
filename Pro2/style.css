@@ -38,7 +38,6 @@ ul li{
     padding-left: 50px;
 }
 .banner{
-
     display: flex;
     padding: 200px 100px;
 }
@@ -76,6 +75,10 @@ ul li{
     height: 300px;
     width: 500px;
 }
+marquee{
+    background-color: violet;
+    height: 20px;
+}
 #teams{
     box-sizing: border-box;
     padding: 50px;
@@ -93,10 +96,10 @@ ul li{
   transition: all 1s ease;
 }
 img{
-    height: 60px;
-    width: 100px;
+    height: 200px;
+    width: 300px;
     margin: 5%;
-    padding-left: 70px;
+    padding-left: 30px;
     align-items: center;
 }
 img:hover{
@@ -106,44 +109,6 @@ img:hover{
 .team1:hover{
     box-shadow: 10px 10px var(--primary);  
  scale: 1.05; 
-}
-button{
-    padding-right: 100px;
-}
-.team2{
-
-}
-img{
-    height: 150px;
-    width: 300px;
-    margin: 5%;
-}
-img:hover{
-    filter: grayscale();
-    opacity: 0.9;
-}
-.team3{
-}
-img{
-    height: 150px;
-    width: 270px;
-    margin: 5%;
-}
-img:hover{
-    filter: grayscale(--primary);
-    opacity: 0.9;
-}
-.team4{
-    
-}
-img{
-    height: 150px;
-    width: 270px;
-    margin: 5%;
-}
-img:hover{
-    filter: grayscale();
-    opacity: 0.9;
 }
 .right p{
     font-size: 20px;
